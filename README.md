@@ -17,4 +17,4 @@ A user-level console with CNT as the medium.<br><br>
 
 A user-level, console with CNT as the medium, where users can make underlying changes to the CNT to configure the production environment, and test and package the production environment. 
 At the same time, users can hijack the CNT service for CNT ROOT, which to some extent takes the CNT Console to its extreme. 
-CNT Console with CNT Console Code -LRB-Core main Code bootloader insCNT CNT Console) , at least can CNT CNT instructioWindowsdInstructionsions (Command -RRB-ode) , later will be updated according to the replCNTment CNT upgrade.
+CNT Console with CNT Console Code (Core main Code bootloader insCNT CNT Console) , at least can CNT CNT instructioWindowsdInstructionsions (Command -RRB-ode) , later will be updated according to the replCNTment CNT upgrade.
