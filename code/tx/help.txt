@@ -1,0 +1,97 @@
+English:
+CNT Console is a program used to pave the way for CNT services, you can use the CNT Console to change CNT services.
+
+Usage: CNT <Command>[<args>] 
+
+The following are common CNT commands used in various situations:
+
+The start command can start a CNT service, for example, the CNT start GUI.
+The webstart command can start a CNT web service, for example, the CNT webstart https://aplcexenicesetrl.cn/wiki/CNT/webserver/hello 
+Handle changes (see also: cntChange)
+go-continue service 
+stop-stop service 
+remove-remove service status change 
+memo-list running service kill-force off a service log-show log show various types of object 
+status-show service status growth, Mark and adjust your common history 
+service-list, create or delete service 
+reb-re-service 
+change-create, list, delete or validate change validation 
+collaboration (see also: CNT3 help workflow)
+get a statement from APLCEXENICESETRL CNT WINCODE push update remote reference and related changes“CNT help teamwork” lists the available subcommands and some concept guides.
+See "CNT Help <page>" or "Git Help <Command>" for specific subcommands or concepts. For an overview of the system, see "CNT help cntSystem".
+
+Code List:
+    1.list - Show CNT help hunting list
+    2.version - show CNT version number
+    3.exit - exit CNT Console
+    4.update - update CNT
+    5.start - start service
+    6.webstart - start network service
+    7.go - continue service
+    8.stop - stop the service
+    9.remove - remove the service from the service index
+    10.memo - list the running services
+    11.kill - force a service to close
+    12.log - display logs
+    13.show -  displays various types of objects
+    14.status - displays service status
+    15.service - lists, creates, or deletes services, 
+    16.reb - revises service changes
+    17.creates, lists, deletes, or verifies changes for use
+    18.(add instructions according to CNT environment variables) 
+
+
+
+
+Chinese:
+
+CNT Console 是一个用于铺助 CNT 服务程序的程序，你可以通过 CNT Console 来进行更改 CNT 服务
+
+用法：cnt <command>[<args>]
+
+以下是在各种情况下使用的常见 CNT 命令：
+
+开启一个服务（另请参阅：cnt帮助教程）
+start 指令可以启动一项 CNT 服务，例如：cnt start GUI（启动 CNT GUI）
+webstart 指令可以 CNT 网络服务，例如：cnt webstart https://aplcexenicesetrl.cn/wiki/CNT/webServer/hello
+处理更改（另请参阅：cntChange）
+go - 继续服务
+stop - 停止服务
+remove - 从服务索引中删除服务
+状态更改
+memo - 列出正在运行的服务
+kill - 强行关闭某个服务
+log - 显示日志
+show - 显示各种类型的对象
+status - 显示服务状态
+增长、标记和调整你的共同历史
+service - 列出、创建或删除服务
+reb - 重新服务更改
+change - 创建、列出、删除或验证用的更改验证
+协作（另请参阅：CNT3帮助工作流）
+从APlcexenicesetrl CNT WinCode 获取声明
+推送更新远程参照以及相关更改
+“cnt help teamwork”列出了可用的子命令和一些
+概念指南。请参阅“cnt help<page>”或“git help<command>”
+阅读特定的子命令或概念。
+有关系统的概述，请参阅“cnt help cntSystem”。
+
+Code List: 
+    1.help (webpath:webName) - 显示 CNT 帮助猎列表
+    2.version - 显示 CNT 版本号
+    3.exit (int:exitID) - 退出 CNT Console
+    4.update - 更新 CNT
+    5.start - 启动服务
+    6.webstart - 启动网络服务
+    7.go - 继续服务
+    8.stop - 停止服务
+    9.remove - 从服务索引中删除服务
+    10.memo - 列出正在运行的服务
+    11.kill - 强行关闭某个服务
+    12.log - 显示日志
+    13.show - 显示各种类型的对象
+    14.status - 显示服务状态
+    15.service - 列出、创建或删除服务
+    16.reb - 重新服务更改
+    17.change - 创建、列出、删除或验证用的更改验证
+    18.(根据 CNT_PATH 环境变量添加指令)

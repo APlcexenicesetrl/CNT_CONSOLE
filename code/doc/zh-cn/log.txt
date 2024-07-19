@@ -1,0 +1,8 @@
+CNT 控制台内核命令 帮助文档
+指令“log”
+
+“log”指令是 CNT 中，用于排查信息的 DEBUG 类型指令，原型为 cnt log ([string:command])->([vector<string>:codeParameter])
+“log”指令下，含有多种命令，常见的有：
+1.list - 列出指令(一般情况下，“cnt log” 也能达到这种效果)
+2.clear - 清理日志(这通常面对于日志特别多的时候进行)
+3.add [string:Record] - 添加日志记录(用于隐藏一些小秘密)

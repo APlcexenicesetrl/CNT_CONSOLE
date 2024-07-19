@@ -1,0 +1,42 @@
+CNT Console is a program used to pave the way for CNT services, you can use the CNT Console to change CNT services. \n
+\n
+Usage: CNT <Command>[<args>] \n
+\n
+The following are common CNT commands used in various situations: \n
+\n
+The start command can start a CNT service, for example, the CNT start GUI.\n
+The webstart command can start a CNT web service, for example, the CNT webstart https://aplcexenicesetrl.cn/wiki/CNT/webserver/hello \n
+Handle changes (see also: cntChange)\n
+go-continue service \n
+stop-stop service \n
+remove-remove service status change \n
+memo-list running service kill-force off a service log-show log show various types of object \n
+status-show service status growth, Mark and adjust your common history \n
+service-list, create or delete service \n
+reb-re-service \n
+change-create, list, delete or validate change validation \n
+collaboration (see also: CNT3 help workflow)\n
+get a statement from APLCEXENICESETRL CNT WINCODE push update remote reference and related changes "CNT help teamwork" lists the available subcommands and some concept guides. \n
+See "CNT Help <page>" or "CNT Help <Command>" for specific subcommands or concepts. For an overview of the system, see "CNT help cntSystem".\n
+\n
+Code List:\n
+    1.help - Show CNT help hunting list\n
+    2.version - show CNT version number\n
+    3.exit - exit CNT Console\n
+    4.update - update CNT\n
+    5.start - start service\n
+    6.webstart - start network service\n
+    7.go - continue service\n
+    8.stop - stop the service\n
+    9.remove - remove the service from the service index\n
+    10.memo - list the running services\n
+    11.kill - force a service to close\n
+    12.log - display logs\n
+    13.show -  displays various types of objects\n
+    14.status - displays service status\n
+    15.service - lists, creates, or deletes services, \n
+    16.reb - revises service changes\n
+    17.creates, lists, deletes, or verifies changes for use\n
+    18.(add instructions according to CNT environment variables) \n
+\n
+Three times a key

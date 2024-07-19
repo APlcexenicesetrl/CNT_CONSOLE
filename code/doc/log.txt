@@ -1,0 +1,2 @@
+CNT Console Code Help Doc
+Instruction“Log”
