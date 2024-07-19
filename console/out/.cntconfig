@@ -1,0 +1,4 @@
+[Config]
+    title: 'CNT Console';
+    Install_Path: 'C:\Windows\CNT\Console';
+    Code_path: 'C:\Windows\CNT\Console\Code';

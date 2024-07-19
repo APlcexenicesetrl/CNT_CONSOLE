@@ -1,0 +1,112 @@
+[Project]
+FileName=CNT_Console.dev
+Name=CNT_Console
+Type=1
+Ver=2
+ObjFiles=
+Includes=
+Libs=
+PrivateResource=CNT_Console_private.rc
+ResourceIncludes=
+MakeIncludes=
+Compiler=
+CppCompiler=
+Linker=
+IsCpp=1
+Icon=CNT_Console.ico
+ExeOutput=out
+ObjectOutput=obj
+LogOutput=log
+LogOutputEnabled=1
+OverrideOutput=1
+OverrideOutputName=CNT_Console.exe
+HostApplication=
+UseCustomMakefile=0
+CustomMakefile=.cntconfig
+CommandLine=
+Folders="CPP File","'H' File"
+IncludeVersionInfo=1
+SupportXPThemes=0
+CompilerSet=0
+CompilerSettings=0000000000000000000000000
+UnitCount=6
+
+[VersionInfo]
+Major=1
+Minor=0
+Release=0
+Build=78
+LanguageID=1033
+CharsetID=1252
+CompanyName=APlcexenicesetrl CNT
+FileVersion=1.0.0.78
+FileDescription=CNT - Console (This program is used for inputting instructions)
+InternalName=CNT Console
+LegalCopyright=Copyright (C) 2025 - By TaimWay
+LegalTrademarks=APlcexenicesetrl (R) CNT (TM)
+OriginalFilename=CNT_Console
+ProductName=CNT Console
+ProductVersion=1.0.0.78
+AutoIncBuildNr=1
+SyncProduct=1
+
+[Unit1]
+FileName=File\colorDefine.h
+CompileCpp=1
+Folder='H' File
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit2]
+FileName=File\config.h
+CompileCpp=1
+Folder='H' File
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit3]
+FileName=File\code.cpp
+CompileCpp=1
+Folder=CPP File
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit4]
+FileName=File\console.cpp
+CompileCpp=1
+Folder=CPP File
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit5]
+FileName=File\main.cpp
+CompileCpp=1
+Folder=CPP File
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit6]
+FileName=File\winCode.cpp
+CompileCpp=1
+Folder=CPP File
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+

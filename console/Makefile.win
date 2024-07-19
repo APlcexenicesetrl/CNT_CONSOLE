@@ -1,0 +1,42 @@
+# Project: CNT_Console
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = obj/CNT_Console_private.res
+OBJ      = obj/code.o obj/console.o obj/main.o obj/winCode.o $(RES)
+LINKOBJ  = obj/code.o obj/console.o obj/main.o obj/winCode.o $(RES)
+LIBS     = -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = out/CNT_Console.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+obj/code.o: File/code.cpp
+	$(CPP) -c File/code.cpp -o obj/code.o $(CXXFLAGS)
+
+obj/console.o: File/console.cpp
+	$(CPP) -c File/console.cpp -o obj/console.o $(CXXFLAGS)
+
+obj/main.o: File/main.cpp
+	$(CPP) -c File/main.cpp -o obj/main.o $(CXXFLAGS)
+
+obj/winCode.o: File/winCode.cpp
+	$(CPP) -c File/winCode.cpp -o obj/winCode.o $(CXXFLAGS)
+
+obj/CNT_Console_private.res: CNT_Console_private.rc 
+	$(WINDRES) -i CNT_Console_private.rc --input-format=rc -o obj/CNT_Console_private.res -O coff 
+
