@@ -1,0 +1,33 @@
+# Project: CNT_CONSOLE_CODE
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+RES      = CNT_CONSOLE_CODE_private.res
+OBJ      = file/main.o $(RES)
+LINKOBJ  = file/main.o $(RES)
+LIBS     = -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"E:/Project/CNT/CNT_CONSOLE_CODE/file"
+CXXINCS  = -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/Project/CNT/CNT_CONSOLE_CODE/file"
+BIN      = CNT_CONSOLE_CODE.exe
+CXXFLAGS = $(CXXINCS) -g3 -std=c++11
+CFLAGS   = $(INCS) -g3 -std=c++11
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+file/main.o: file/main.cpp
+	$(CPP) -c file/main.cpp -o file/main.o $(CXXFLAGS)
+
+CNT_CONSOLE_CODE_private.res: CNT_CONSOLE_CODE_private.rc 
+	$(WINDRES) -i CNT_CONSOLE_CODE_private.rc --input-format=rc -o CNT_CONSOLE_CODE_private.res -O coff 
+
